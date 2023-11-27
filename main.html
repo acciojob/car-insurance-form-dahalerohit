@@ -1,16 +1,51 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Insrance Registration Form</title>
+	
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+	<header>
+		<h2>Car Insurance Registration Form </h2>
+	</header>
+    <form action="" method="post">
+	<label for="name"> Name: </label>
+	<input type="text" id="name" name="name" required><br><br>
 
+	<label for="email"> Email: </label>
+	<input type="email" id="email" name="email" required><br><br>
+
+	<label for="gender"> Gender:</label>
+	<label for="male"> Male</label>
+	<input type="radio" id="male" name="male" required>
+	<lable for="female">female</lable>
+	<input type="radio" id="female" name="female" required><br><br>
+
+	<label for="cars"> Car Brand : </label>
+	<select id="cars" name="cars" >
+		<option value="BMW"> BMW </option>
+		<option Value="Audi">Audi</option>
+		<option Value="Mercedez">Mercedez</option>
+	</select><br><br>
+
+		<label for="carage"> Car Age :</label>
+		<input type="number" id="carage" name="car age" required><br><br>
+
+		<label for="dop"> Date of Purchase (dop):</label>
+		<input type="date" id="dop" name="date of purchase(dop)" required><br><br>
+
+        <label for="password"> Password :</label>
+		<input type="password" id="password" name="password" required><br><br>
+
+		<button type="submit"> Submit </button>
+		
+		
+		
+		
+		
+		
+	</form>
 </body>
-
 </html>
